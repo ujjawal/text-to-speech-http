@@ -1,0 +1,16 @@
+text-to-speech-http is a small web app for converting text into speech over HTTP
+
+Requirements:
+[ruby](http://www.ruby-lang.org)
+[sinatra](http://www.sinatrarb.com)
+[lame](http://lame.sourceforge.net)
+[espeak](http://espeak.sourceforge.net)
+[portaudio](http://www.portaudio.com/) for building espeak
+
+Install:
+  $ git clone git@github.com:ujjawal/text-to-speech-http.git
+  $ cd text-to-speech-http 
+  $ ruby lib/espeak-http
+
+Use:
+http://localhost:4567/tts?text=Hello%20world
